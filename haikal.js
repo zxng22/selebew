@@ -1031,12 +1031,12 @@ if (isBan) throw sticBanLu(from)
 await haikal.sendMessage(m.chat, { 
 text: '', 
 templateButtons: [
-{ callButton: { displayText: `OWNER`, phoneNumber: `6285714170944`}},
-{ callButton: { displayText: `OWNER`, phoneNumber: `6283186308195`}},
+{ callButton: { displayText: `OWNER`, phoneNumber: `6282187795406`}},
+{ callButton: { displayText: `OWNER`, phoneNumber: `6282187795406`}},
 { urlButton: { displayText: `GROUP HW MODS WA`, url: `https://chat.whatsapp.com/I6VMA8KF74gICjxESpThL2`}},
 { quickReplyButton: { displayText: `MY`, id: `Anjay Menger`}},
 { quickReplyButton: { displayText: `NAME`, id: `AH SLEBEEW`}},
-{ quickReplyButton: { displayText: `HAIKAL`, id: `JAGOAN OM?`}},
+{ quickReplyButton: { displayText: `REZA`, id: `JAGOAN OM?`}},
 ]
  })
   await sleep(10000* secon)
@@ -1048,7 +1048,7 @@ if (!isCreator) return
 if (isBan) throw sticBanLu(from)
 if (args.length == 0) return m.reply(`Penggunaan ${prefix+command} jumlah\nContoh ${prefix+command} 5`)
 jumlah = `${encodeURI(q)}`
-ydd = `Hallo Aku haikal`
+ydd = `Hallo Aku Reza`
 for (let i = 0; i < jumlah; i++) {
 var messa = await prepareWAMessageMedia({ image: fs.readFileSync('./baseikal/image/hwmodsgans.jpg') }, { upload: haikal.waUploadToServer })
 var document = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
